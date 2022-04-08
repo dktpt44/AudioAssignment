@@ -64,5 +64,6 @@ button:active {
   box-shadow: #d6d6e7 0 3px 7px inset;
 }
 .carouselClass {
+  display: none;
   height: 100vh;
 }

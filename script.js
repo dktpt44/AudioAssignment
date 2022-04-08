@@ -24,7 +24,13 @@ var intro = document.querySelector(".intro");
 
 $(".soundscape").on("click", () => {
   $(".intro").fadeOut(1000);
+  $('.carouselClass').fadeIn(1000);
   drums.play();
+
+});
+$('.carousel').carousel({
+  interval: 2000,
+  ride: true
 });
 
 // drums.addEventListener("timeupdate", () => {
