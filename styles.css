@@ -3,7 +3,8 @@
   margin: 0;
 }
 body {
-  transition: 0.5s linear all;
+  /* transition: 0.5s linear all; */
+  background-color: #282a3e !important;
 }
 .intro {
   width: 100%;
@@ -57,7 +58,6 @@ button:hover {
   box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px,
     rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #d6d6e7 0 -3px 0 inset;
   background-color: #c7c7f5;
-
 }
 
 button:active {
@@ -66,4 +66,26 @@ button:active {
 .carouselClass {
   display: none;
   height: 100vh;
+}
+
+.interactivesound {
+  display: block;
+  background-color: #282a3e;
+  color: white;
+  /* todo  */
+}
+
+.soundheader h4 {
+  text-align: center;
+  font-size: 40px !important;
+  font-weight: 500;
+  padding: 80px;
+  letter-spacing: 1px;
+  line-height: 54px;
+  word-spacing: 2px;
+}
+#interactiveSoundarea {
+  width: 60%;
+  margin: 0 auto;
+  height: 300px;
 }
